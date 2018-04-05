@@ -17,6 +17,7 @@ public class sepatuAksi {
             jalan.bahan="Kulit";
             jalan.size="41";
             jalan.madein="EUR";
+            jalan.CetakInfo();
             
         sepatu sekolah = new sepatu();
             sekolah.merk="Nike";
@@ -24,6 +25,7 @@ public class sepatuAksi {
             sekolah.bahan="Kain";
             sekolah.size="40";
             sekolah.madein="Vietnam";
+            sekolah.CetakInfo();
             
         sepatu kerja = new sepatu();
             jalan.merk="Converse";
@@ -31,5 +33,6 @@ public class sepatuAksi {
             jalan.bahan="Canvas";
             jalan.size="41";
             jalan.madein="Indonesia";
+            jalan.CetakInfo();
     }
 }
